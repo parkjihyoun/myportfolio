@@ -10,7 +10,7 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist -u"
+    "deploy": "gh-pages -d dist -u \"parkjihyoun <jihyoun2002@knu.ac.kr>\""
   },
   "dependencies": {
     "react": "^19.1.0",
