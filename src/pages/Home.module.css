@@ -1,0 +1,136 @@
+.introSection {
+    margin-bottom: 2.5rem;
+    text-align: center;
+}
+
+.projectsSection {
+    margin-bottom: 2.5rem;
+}
+
+.projectsSection h2 {
+    text-align: center;
+}
+
+.projectList {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.2rem;
+    justify-content: center;
+    align-items: stretch;
+    width: 100%;
+}
+
+@media (max-width: 600px) {
+    .projectList {
+        flex-direction: column;
+        gap: 0.7rem;
+    }
+}
+
+.skillsSection {
+    margin-bottom: 2.5rem;
+}
+
+.skillsSection h2 {
+    text-align: center;
+}
+
+/* AboutSection 내부 h2, h3 가운데 정렬 */
+:global(.aboutSection h2),
+:global(.aboutSection h3) {
+    text-align: center;
+}
+
+.toolsSection {
+    margin: 2rem 0;
+    padding: 1.5rem;
+    background: linear-gradient(135deg, #f7f7fa 60%, #a8bdff 100%);
+    border-radius: 18px;
+    box-shadow: 0 4px 16px rgba(120, 120, 180, 0.08);
+    text-align: center;
+    transition: box-shadow 0.2s;
+}
+
+.toolsSection:hover {
+    box-shadow: 0 8px 24px rgba(120, 120, 180, 0.16);
+}
+
+.toolsSection h2 {
+    margin-bottom: 0.7rem;
+    color: #4b5ae2;
+    font-weight: 700;
+}
+
+.toolsSection ul {
+    margin: 0 0 0.7rem 0;
+    padding: 0;
+    list-style: none;
+}
+
+.toolsSection li {
+    display: inline-block;
+    margin: 0 0.7rem;
+    color: #333;
+    font-size: 1.08rem;
+    background: #e6eaff;
+    border-radius: 8px;
+    padding: 0.3rem 0.8rem;
+}
+
+.toolsSection p {
+    color: #5a5a7a;
+    font-size: 1.05rem;
+    margin-top: 0.5rem;
+}
+
+.philosophySection {
+    margin: 2rem 0;
+    padding: 1.5rem;
+    background: linear-gradient(135deg, #eaf6ff 60%, #f0eaff 100%);
+    border-radius: 18px;
+    box-shadow: 0 4px 16px rgba(100, 180, 220, 0.08);
+    text-align: center;
+}
+
+.philosophySection h2 {
+    margin-bottom: 0.7rem;
+    color: #2a8dd2;
+    font-weight: 700;
+}
+
+.philosophySection p {
+    font-style: italic;
+    color: #3a3a5a;
+    font-size: 1.08rem;
+}
+
+.educationSection {
+    margin: 2rem 0;
+    padding: 1.5rem;
+    background: linear-gradient(135deg, #f0fff0 60%, #b0ffd6 100%);
+    border-radius: 18px;
+    box-shadow: 0 4px 16px rgba(120, 200, 120, 0.08);
+    text-align: center;
+}
+
+.educationSection h2 {
+    margin-bottom: 0.7rem;
+    color: #31cca5;
+    font-weight: 700;
+}
+
+.educationSection ul {
+    margin: 0 auto;
+    padding: 0;
+    list-style: none;
+    display: inline-block;
+}
+
+.educationSection li {
+    color: #2a4a2a;
+    font-size: 1.08rem;
+    background: #e6ffe6;
+    border-radius: 8px;
+    padding: 0.3rem 1.2rem;
+    margin: 0.2rem 0;
+}

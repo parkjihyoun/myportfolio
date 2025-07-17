@@ -1,0 +1,12 @@
+.profileImage {
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2.5px solid #2563eb;
+    box-shadow: 0 2px 12px rgba(37, 99, 235, 0.13);
+    transition: box-shadow 0.18s, border 0.18s;
+}
+
+.profileImage:hover {
+    box-shadow: 0 6px 24px rgba(37, 99, 235, 0.22);
+    border: 2.5px solid #1741a6;
+}

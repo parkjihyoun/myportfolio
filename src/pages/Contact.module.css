@@ -1,0 +1,56 @@
+.contactPage {
+    margin: 2rem 0;
+    text-align: center;
+}
+
+.contactPage h2 {
+    margin-bottom: 2rem;
+    font-size: 2rem;
+    color: #23272f;
+}
+
+.contactList {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.contactItem {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    padding: 1.5rem;
+    background: linear-gradient(120deg, #fff 80%, #e0e7ef 100%);
+    border-radius: 12px;
+    box-shadow: 0 2px 12px rgba(37, 99, 235, 0.08);
+    border: 1px solid #e0e7ef;
+    transition: transform 0.18s, box-shadow 0.18s;
+    min-width: 250px;
+}
+
+.contactItem:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 6px 20px rgba(37, 99, 235, 0.15);
+}
+
+.contactItem h3 {
+    color: #2563eb;
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin: 0;
+}
+
+.contactItem a {
+    color: #23272f;
+    font-size: 1.1rem;
+    font-weight: 500;
+    text-decoration: none;
+    transition: color 0.18s;
+}
+
+.contactItem a:hover {
+    color: #2563eb;
+}

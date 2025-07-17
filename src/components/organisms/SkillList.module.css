@@ -1,0 +1,13 @@
+.skillList {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.7em;
+    margin: 0.7em 0 1.7em 0;
+    justify-content: center;
+}
+
+@media (max-width: 600px) {
+    .skillList {
+        gap: 0.4em;
+    }
+}

@@ -1,0 +1,49 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2.2rem 2.5vw 2.2rem 2.5vw;
+    border-bottom: 1.5px solid #e0e7ef;
+    margin-bottom: 2.2rem;
+    background: #fff;
+    box-shadow: 0 2px 12px rgba(37, 99, 235, 0.04);
+    width: 100vw;
+    left: 0;
+    right: 0;
+    position: relative;
+}
+
+.profileSection {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    margin-left: 50px;
+}
+
+.name {
+    font-size: 1.7rem;
+    font-weight: 800;
+    margin: 0;
+    color: #23272f;
+    letter-spacing: -0.02em;
+}
+
+.slogan {
+    font-size: 1.13rem;
+    color: #2563eb;
+    margin: 0.2em 0 0 0;
+    font-weight: 600;
+    letter-spacing: -0.01em;
+}
+
+@media (max-width: 700px) {
+    .header {
+        flex-direction: column;
+        gap: 1.2rem;
+        padding: 1.2rem 1vw 1.2rem 1vw;
+    }
+
+    .profileSection {
+        gap: 0.7rem;
+    }
+}

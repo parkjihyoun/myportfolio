@@ -1,0 +1,46 @@
+.aboutSection {
+    background: linear-gradient(120deg, #f8fafc 80%, #e0e7ef 100%);
+    border-radius: 16px;
+    padding: 2.2rem 2vw;
+    margin: 2.2rem 0;
+    box-shadow: 0 2px 12px rgba(37, 99, 235, 0.07);
+    border: 1.5px solid #e0e7ef;
+    justify-items: center;
+}
+
+.intro {
+    font-size: 1.13rem;
+    color: #23272f;
+    margin-bottom: 1.3em;
+    font-weight: 500;
+}
+
+.vision {
+    font-size: 1.08rem;
+    color: #2563eb;
+    margin-bottom: 1.3em;
+    font-weight: 600;
+}
+
+.records {
+    margin-top: 1.3em;
+    justify-items: center;
+}
+
+.records ul {
+    padding-left: 1.3em;
+    margin: 0.6em 0 0 0;
+}
+
+.records li {
+    font-size: 1.01rem;
+    color: #444;
+    margin-bottom: 0.35em;
+    font-weight: 500;
+}
+
+@media (max-width: 700px) {
+    .aboutSection {
+        padding: 1.2rem 2vw;
+    }
+}
