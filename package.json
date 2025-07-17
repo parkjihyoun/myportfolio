@@ -10,7 +10,7 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist -u \"parkjihyoun <jihyoun2002@knu.ac.kr>\""
+    "deploy": "gh-pages -d dist -u \"parkjihyoun <jihyoun2002@knu.ac.kr>\" --repo=https://$GITHUB_ACTOR:$GITHUB_TOKEN@github.com/parkjihyoun/myportfolio.git"
   },
   "dependencies": {
     "react": "^19.1.0",
